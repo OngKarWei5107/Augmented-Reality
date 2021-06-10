@@ -217,6 +217,36 @@ public class UserInterfaceButtons : MonoBehaviour
 	{
 		SceneManager.LoadScene("scene4");
 	}
+	
+	public void mk_ChangeScene0()
+	{
+		SceneManager.LoadScene("mk_scene0");
+	}
+
+	//maykuann
+    public void mk_ChangeScene1()
+    {
+        SceneManager.LoadScene("mk_scene1");
+    }
+
+    public void mk_ChangeSceneSlime()
+	{
+		SceneManager.LoadScene("mk_slime");
+	}
+    public void mk_ChangeSceneFire()
+    {
+        SceneManager.LoadScene("mk_fire_stone");
+    }
+    public void mk_ChangeSceneShell()
+    {
+        SceneManager.LoadScene("mk_turtle_shell");
+    }
+
+    public void ChangeSceneLast()
+    {
+        SceneManager.LoadScene("mk_lastscene");
+    }
+    
 	public void AnyButton()
 	{
 		Debug.Log("Any");
